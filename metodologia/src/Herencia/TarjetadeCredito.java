@@ -9,8 +9,34 @@ package Herencia;
  *
  * @author T-107
  */
-public class TarjetadeCredito {
- private int numero;   
+public class TarjetadeCredito extends Tarjeta{
+
+    @Override
+    public void pagar() {
+        
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+}
+/*private int numero;   
  
  /*
  public void setNumero(int numero){
@@ -26,6 +52,7 @@ public class TarjetadeCredito {
     /**
      * @return Este metodo te regresa el valor de tu tarjeta
      */
+    /*
     public int getNumero() {
         return numero;
     }
@@ -33,7 +60,7 @@ public class TarjetadeCredito {
     /**
      * @param numero Aqui debes introducir en los parentesis a valor del numero de tarjeta
      */
-    public void setNumero(int numero) {
+    /*public void setNumero(int numero) {
         this.numero = numero;
-    }
-}
+    }*/
+
