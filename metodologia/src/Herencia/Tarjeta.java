@@ -16,7 +16,7 @@ public abstract class Tarjeta {
     private float saldo;
     
 
-    public abstract void pagar();
+    public abstract void pagar(float desposito);
     
     
     public float getSaldo() {

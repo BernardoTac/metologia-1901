@@ -11,8 +11,10 @@ package Herencia;
  */
 public class TarjetadeCredito extends Tarjeta{
 
-    @Override
-    public void pagar() {
+
+    public void pagar(float deposito) {
+        setSaldo((getSaldo()+deposito)-deposito*0.83f);
+        
         
     }
 
